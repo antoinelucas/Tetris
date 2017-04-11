@@ -16,6 +16,35 @@ public class GameActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
 
+        final Button easyButton = (Button) findViewById(R.id.buttonEasy);
+        easyButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(GameActivity.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        final Button mediumButton = (Button) findViewById(R.id.buttonMedium);
+        mediumButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(GameActivity.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        final Button hardButton = (Button) findViewById(R.id.buttonHard);
+        hardButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(GameActivity.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override
