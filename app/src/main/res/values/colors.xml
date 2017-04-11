@@ -3,4 +3,10 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorButtonLevel">#0F5499</color>
+    <color name="colorButtonParameter">#217DD9</color>
+    <color name="colorButtonNewGame">#FF00FF</color>
+    <color name="colorButtonStop">#FF5E00</color>
+    <color name="colorBlanc">#FFFFFF</color>
+
 </resources>

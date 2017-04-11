@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiant_background">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -9,6 +10,12 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp"
+        android:width="200dp"
+        android:height="50dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlanc"
         android:id="@+id/textView" />
 
     <Button
@@ -18,24 +25,44 @@
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp"
-        android:text="Facile" />
+        android:width="200dp"
+        android:height="50dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="Facile"
+        android:textSize="30dp"
+        android:textColor="@color/colorBlanc"
+        android:background="@drawable/touch_effect"/>
 
     <Button
         android:id="@+id/buttonMedium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:text="Intermédiaire"
+        android:width="200dp"
+        android:height="50dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="MOYEN"
+        android:textSize="30dp"
+        android:textColor="@color/colorBlanc"
         android:layout_below="@+id/buttonEasy"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/touch_effect"/>
 
     <Button
         android:id="@+id/buttonHard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:text="Difficle"
+        android:width="200dp"
+        android:height="50dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@color/colorBlanc"
+        android:text="difficile"
+        android:background="@drawable/touch_effect"
         android:layout_below="@+id/buttonMedium"
-        android:layout_alignLeft="@+id/buttonEasy"
-        android:layout_alignStart="@+id/buttonEasy" />
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
