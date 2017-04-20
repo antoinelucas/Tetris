@@ -8,5 +8,49 @@
     <color name="colorButtonNewGame">#FF00FF</color>
     <color name="colorButtonStop">#FF5E00</color>
     <color name="colorBlanc">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <!-- Couleur pièce du jeu -->
+    <!-- 1 -->
+
+    <color name="colorBackgroundRed">#800707</color>
+    <color name="colorTriangleRed">#E60C0C</color>
+    <color name="colorSquareRed">#B30909</color>
+
+    <!-- 2 -->
+
+    <color name="colorBackgroundPurple">#800761</color>
+    <color name="colorTrianglePurple">#E60CAF</color>
+    <color name="colorSquarePurple">#B30988</color>
+
+    <!-- 3 -->
+
+    <color name="colorBackgroundYellow">#806C07</color>
+    <color name="colorTriangleYellow">#E6C20C</color>
+    <color name="colorSquareYellow">#B39709</color>
+
+    <!-- 4 -->
+
+    <color name="colorBackgroundBlue">#072F80</color>
+    <color name="colorTriangleBlue">#0C54E6</color>
+    <color name="colorSquareBlue">#0941B3</color>
+
+    <!-- 5 -->
+
+    <color name="colorBackgroundOrange">#803907</color>
+    <color name="colorTriangleOrange">#E6670C</color>
+    <color name="colorSquareOrange">#B35009</color>
+
+    <!-- Default -->
+
+    <color name="colorBackgroundGreen">#078007</color>
+    <color name="colorTriangleGreen">#0CE60C</color>
+    <color name="colorSquareGreen">#09B309</color>
+
+    <!-- Default -->
+
+    <color name="colorBackgroundTurquoise">#077680</color>
+    <color name="colorTriangleTurquoise">#0CD4E6</color>
+    <color name="colorSquareTurquoise">#09A5B3</color>
 
 </resources>

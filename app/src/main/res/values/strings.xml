@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Tetris</string>
+    <string name="icon">Icon</string>
+    <string name="Level">Niveau: </string>
+    <string name="Score">Score: </string>
+    <string name="Next">Next</string>
 </resources>
