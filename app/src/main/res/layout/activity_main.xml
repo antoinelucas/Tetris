@@ -8,7 +8,7 @@
     android:background="@drawable/gradiant_background">
 
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/gridview"
+        android:id="@+id/frameLayout"
         android:layout_width="220dp"
         android:layout_height="match_parent"
 
@@ -67,11 +67,36 @@
         android:background="@color/colorBlack"
         android:textColor="@color/colorBlanc"
         android:layout_below="@+id/textView3"
-        android:layout_alignLeft="@+id/gridview"
-        android:layout_alignStart="@+id/gridview"
+        android:layout_alignLeft="@+id/frameLayout"
+        android:layout_alignStart="@+id/frameLayout"
         android:layout_alignRight="@+id/textView3"
         android:layout_alignEnd="@+id/textView3" />
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/frameLayout"
+        android:layout_alignStart="@+id/frameLayout"
+        android:background="@color/colorBlack"
+        android:text="@string/Score"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlanc"
+        android:textSize="20sp"
+        android:layout_alignRight="@+id/frameLayout"
+        android:layout_alignEnd="@+id/frameLayout" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_toRightOf="@+id/frameLayout"
+        android:textAlignment="center"
+        android:text="@string/Next"
+        android:textColor="@color/colorBlanc"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 
 </RelativeLayout>
