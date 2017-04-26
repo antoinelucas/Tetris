@@ -11,6 +11,8 @@ import android.widget.Button;
  */
 
 public class GameActivity extends AppCompatActivity {
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +24,7 @@ public class GameActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(GameActivity.this, MainActivity.class);
+                intent.putExtra("level","easy");
                 startActivity(intent);
             }
         });
@@ -32,6 +35,7 @@ public class GameActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(GameActivity.this, MainActivity.class);
+                intent.putExtra("level","medium");
                 startActivity(intent);
             }
         });
@@ -42,6 +46,7 @@ public class GameActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(GameActivity.this, MainActivity.class);
+                intent.putExtra("level","hard");
                 startActivity(intent);
             }
         });

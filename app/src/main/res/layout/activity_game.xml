@@ -22,9 +22,7 @@
         android:id="@+id/buttonEasy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="59dp"
         android:width="200dp"
         android:height="50dp"
         android:gravity="center"
@@ -32,7 +30,10 @@
         android:text="Facile"
         android:textSize="30dp"
         android:textColor="@color/colorBlanc"
-        android:background="@drawable/touch_effect"/>
+        android:background="@drawable/touch_effect"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
 
     <Button
         android:id="@+id/buttonMedium"
