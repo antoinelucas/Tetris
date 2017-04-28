@@ -6,7 +6,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Difficulté"
+        android:text="@string/difficult"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp"
@@ -27,7 +27,7 @@
         android:height="50dp"
         android:gravity="center"
         android:textAlignment="center"
-        android:text="Facile"
+        android:text="@string/facile"
         android:textSize="30dp"
         android:textColor="@color/colorBlanc"
         android:background="@drawable/touch_effect"
@@ -44,12 +44,12 @@
         android:height="50dp"
         android:gravity="center"
         android:textAlignment="center"
-        android:text="MOYEN"
+        android:text="@string/moyen"
         android:textSize="30dp"
         android:textColor="@color/colorBlanc"
         android:layout_below="@+id/buttonEasy"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/touch_effect"/>
+        android:background="@drawable/touch_effect" />
 
     <Button
         android:id="@+id/buttonHard"
@@ -62,7 +62,7 @@
         android:textAlignment="center"
         android:textSize="30dp"
         android:textColor="@color/colorBlanc"
-        android:text="difficile"
+        android:text="@string/difficile"
         android:background="@drawable/touch_effect"
         android:layout_below="@+id/buttonMedium"
         android:layout_centerHorizontal="true" />

@@ -4,4 +4,9 @@
     <string name="Level">Niveau: </string>
     <string name="Score">Score: </string>
     <string name="Next">Next</string>
+    <string name="difficult">Difficulté :</string>
+    <string name="facile">Facile</string>
+    <string name="moyen">MOYEN</string>
+    <string name="difficile">DIFFICILE</string>
+
 </resources>

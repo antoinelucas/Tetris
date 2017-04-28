@@ -1,13 +1,15 @@
 package com.example.antoinelucas.tetris;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import com.elmargomez.typer.Font;
+import com.elmargomez.typer.Typer;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -44,6 +46,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        TextView txtView1 = (TextView) findViewById(R.id.textView2);
+        txtView1.setTypeface(Typer.set(this).getFont(Font.ROBOTO_BLACK_ITALIC));
+
+        TextView txtView2 = (TextView) findViewById(R.id.textView3);
+        txtView2.setTypeface(Typer.set(this).getFont(Font.ROBOTO_BLACK_ITALIC));
+
+        TextView txtView3 = (TextView) findViewById(R.id.textView4);
+        txtView3.setTypeface(Typer.set(this).getFont(Font.ROBOTO_BLACK));
+
     }
 
     @Override

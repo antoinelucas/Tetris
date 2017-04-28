@@ -5,6 +5,13 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+
+import com.elmargomez.typer.Font;
+import com.elmargomez.typer.Typer;
+
+import static com.example.antoinelucas.tetris.R.id.buttonEasy;
+import static com.example.antoinelucas.tetris.R.id.buttonHard;
 
 /**
  * Created by Grigusky on 11/04/2017.
@@ -18,7 +25,7 @@ public class GameActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
 
-        final Button easyButton = (Button) findViewById(R.id.buttonEasy);
+        final Button easyButton = (Button) findViewById(buttonEasy);
         easyButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -40,7 +47,7 @@ public class GameActivity extends AppCompatActivity {
             }
         });
 
-        final Button hardButton = (Button) findViewById(R.id.buttonHard);
+        final Button hardButton = (Button) findViewById(buttonHard);
         hardButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -50,6 +57,19 @@ public class GameActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        TextView txtView1 = (TextView) findViewById(R.id.textView);
+        txtView1.setTypeface(Typer.set(this).getFont(Font.ROBOTO_MEDIUM));
+
+        TextView txtView2 = (TextView) findViewById(R.id.buttonEasy);
+        txtView2.setTypeface(Typer.set(this).getFont(Font.ROBOTO_BLACK));
+
+        TextView txtView3 = (TextView) findViewById(R.id.buttonMedium);
+        txtView3.setTypeface(Typer.set(this).getFont(Font.ROBOTO_BLACK));
+
+        TextView txtView4 = (TextView) findViewById(R.id.buttonHard);
+        txtView4.setTypeface(Typer.set(this).getFont(Font.ROBOTO_BLACK));
+
     }
 
     @Override
@@ -76,5 +96,6 @@ public class GameActivity extends AppCompatActivity {
     protected void onDestroy(){
         super.onDestroy();
     }
+
 }
 
